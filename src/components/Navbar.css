@@ -1,0 +1,58 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.nav-style {
+  display: flex;
+}
+
+.nav-style h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+
+
+    li {
+      margin-left: 46px;
+      list-style: none;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+
+}
+
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar input {
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #444444;
+  color: #fff;
+  outline: none;
+}
+
+#navbar form button {
+  background: none;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
