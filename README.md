@@ -1,8 +1,14 @@
-# React + Vite
+# SiteMovie API 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+API para gerenciamento de filmes, integrando dados da **OMDb API** para enriquecer as informações dos filmes.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
+- **OMDb API**: Integração com a Open Movie Database para obter dados de filmes.
+- **React**: Biblioteca JavaScript para construção de interfaces.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## ✨ Funcionalidades
+- **Integração com OMDb API**: Busca de dados de filmes (título, ano, gênero, etc.) diretamente da OMDb.
+- **Endpoints RESTful**: API seguindo os princípios REST.
+
+## 📂 Como Executar Localmente
